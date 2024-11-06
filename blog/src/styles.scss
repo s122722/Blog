@@ -1,0 +1,10 @@
+/* Verwijder standaardmarges en padding van body en html */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; // Zorgt ervoor dat padding en borders goed worden berekend
+}
+
+body {
+  min-height: 100vh;
+}

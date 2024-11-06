@@ -1,0 +1,9 @@
+<section class="blog-list">
+    <h1>Blog Posts</h1>
+    <ul>
+      <li *ngFor="let post of blogPosts">
+        <a [routerLink]="['/blog', post.id]">{{ post.title }}</a>
+      </li>
+    </ul>
+  </section>
+  
